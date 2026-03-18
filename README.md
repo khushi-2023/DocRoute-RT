@@ -1,5 +1,10 @@
 # 📄 DOCROUTE-RT – Intelligent Document Manager
 
+⚠️ This project is developed as a final-year academic project.
+Unauthorized usage, reproduction, or distribution is strictly prohibited.
+
+---
+
 **DOCROUTE-RT** is a **secure, AI-powered document management system** designed to modernize traditional workflows using advanced technologies like OCR, AI, and QR-based tracking.
 
 It enables efficient **document digitization, tracking, sharing, and workflow automation**, making it an ideal solution for organizations handling large volumes of documents.
@@ -91,7 +96,7 @@ It enables efficient **document digitization, tracking, sharing, and workflow au
 
 ## 🏗️ System Architecture
 
-```id="arch1"
+```text
 User → Upload Document → OCR Processing → AI Engine
      → Tagging & Summarization → Storage & Tracking
      → QR Generation → Secure Access → Dashboard Monitoring
@@ -99,16 +104,28 @@ User → Upload Document → OCR Processing → AI Engine
 
 ---
 
+## 🛠️ Tech Stack
+
+* Python
+* Flask / FastAPI
+* OCR (Tesseract / EasyOCR)
+* AI/NLP (Transformers / OpenAI)
+* QR Code Generation
+* SQLite / PostgreSQL
+* HTML, CSS, JavaScript
+
+---
+
 ## ⚙️ Installation
 
-```bash id="inst1"
-git clone https://github.com/your-username/docroute-rt.git
+```bash
+git clone https://github.com/YOUR-USERNAME/docroute-rt.git
 cd docroute-rt
 ```
 
 ### Create Virtual Environment
 
-```bash id="inst2"
+```bash
 python -m venv venv
 ```
 
@@ -116,13 +133,13 @@ Activate:
 
 * Windows:
 
-```bash id="inst3"
+```bash
 venv\Scripts\activate
 ```
 
 * Linux/macOS:
 
-```bash id="inst4"
+```bash
 source venv/bin/activate
 ```
 
@@ -130,7 +147,7 @@ source venv/bin/activate
 
 ### Install Dependencies
 
-```bash id="inst5"
+```bash
 pip install -r requirements.txt
 ```
 
@@ -138,13 +155,13 @@ pip install -r requirements.txt
 
 ## ▶️ Running the Application
 
-```bash id="run1"
+```bash
 python app.py
 ```
 
 Open in browser:
 
-```id="run2"
+```
 http://localhost:5000
 ```
 
@@ -190,6 +207,7 @@ http://localhost:5000
 All Rights Reserved © 2026 Khushi Goda
 
 This project is proprietary. No part of this project may be used, copied, modified, or distributed without explicit permission from the author.
+
 ---
 
 ## ⭐ Support
@@ -197,8 +215,8 @@ This project is proprietary. No part of this project may be used, copied, modifi
 If you like this project:
 
 * ⭐ Star the repository
-* 🍴 Fork it
-* 🚀 Contribute
+
+⚠️ Contributions are currently not open as this project is proprietary.
 
 ---
 
