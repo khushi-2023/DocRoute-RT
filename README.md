@@ -1,12 +1,215 @@
-# DocRoute-RT
-DOCROUTE-RT – Intelligent Document Manager is a comprehensive and secure document management system that modernizes traditional document workflows using advanced technologies such as OCR, AI, and QR-based tracking.
+# 📄 DOCROUTE-RT – Intelligent Document Manager
 
-The system enables users to upload and digitize documents using OCR, extract and preview content, and download files in multiple formats. AI-powered features such as summarization and auto-tagging enhance document understanding by supporting multiple languages and customizable output formats.
+**DOCROUTE-RT** is a **secure, AI-powered document management system** designed to modernize traditional workflows using advanced technologies like OCR, AI, and QR-based tracking.
 
-DOCROUTE-RT introduces a hybrid tracking mechanism that supports both existing and newly created documents. Each document is assigned a unique tracking ID, with version control and comparison features for tracking changes over time.
+It enables efficient **document digitization, tracking, sharing, and workflow automation**, making it an ideal solution for organizations handling large volumes of documents.
 
-For secure sharing, the system uses QR-based access with optional password protection and revocation controls. It maintains detailed audit logs including access type, timestamps, IP address, and device information, ensuring complete transparency and accountability.
+---
 
-Additionally, the platform supports physical document tracking through QR codes, recording ownership details, scan history, and submission logs. An intelligent routing system—combining AI and human input—manages document workflows with deadlines, priorities, notes, and automated reminders.
+## 🚀 Features
 
-A centralized dashboard provides real-time insights into document activity, system health, and pending tasks, making DOCROUTE-RT a scalable, efficient, and secure solution for modern document lifecycle management.
+### 📑 Document Digitization
+
+* Upload and manage documents easily
+* OCR-based text extraction from images/PDFs
+* Preview and download in multiple formats
+
+---
+
+### 🤖 AI-Powered Intelligence
+
+* Automatic document summarization
+* Smart auto-tagging
+* Multi-language support
+* Customizable output formats
+
+---
+
+### 🔍 Advanced Document Tracking
+
+* Unique tracking ID for each document
+* Hybrid tracking for:
+
+  * Existing documents
+  * Newly created documents
+* Version control and comparison
+
+---
+
+### 🔐 Secure Sharing System
+
+* QR-based document access
+* Optional password protection
+* Access revocation control
+* Secure file sharing mechanism
+
+---
+
+### 📊 Audit & Monitoring
+
+* Detailed audit logs including:
+
+  * Access type
+  * Timestamp
+  * IP address
+  * Device information
+* Ensures transparency and accountability
+
+---
+
+### 📦 Physical Document Tracking
+
+* QR code tagging for physical files
+* Ownership tracking
+* Scan history
+* Submission logs
+
+---
+
+### 🔄 Intelligent Workflow Routing
+
+* AI + human-based routing system
+* Manage:
+
+  * Deadlines
+  * Priorities
+  * Notes
+* Automated reminders
+
+---
+
+### 📈 Dashboard & Analytics
+
+* Centralized dashboard
+* Real-time insights:
+
+  * Document activity
+  * System health
+  * Pending tasks
+
+---
+
+## 🏗️ System Architecture
+
+```id="arch1"
+User → Upload Document → OCR Processing → AI Engine
+     → Tagging & Summarization → Storage & Tracking
+     → QR Generation → Secure Access → Dashboard Monitoring
+```
+
+---
+
+## ⚙️ Installation
+
+```bash id="inst1"
+git clone https://github.com/your-username/docroute-rt.git
+cd docroute-rt
+```
+
+### Create Virtual Environment
+
+```bash id="inst2"
+python -m venv venv
+```
+
+Activate:
+
+* Windows:
+
+```bash id="inst3"
+venv\Scripts\activate
+```
+
+* Linux/macOS:
+
+```bash id="inst4"
+source venv/bin/activate
+```
+
+---
+
+### Install Dependencies
+
+```bash id="inst5"
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Running the Application
+
+```bash id="run1"
+python app.py
+```
+
+Open in browser:
+
+```id="run2"
+http://localhost:5000
+```
+
+---
+
+## 🔐 Security Features
+
+* Role-based access control
+* QR-based secure sharing
+* Password-protected access
+* Full audit logging
+* Revocation support
+
+---
+
+## 🎯 Use Cases
+
+* Government document management
+* Corporate file tracking systems
+* Educational institutions
+* Legal and compliance workflows
+* Healthcare document systems
+
+---
+
+## 🔮 Future Enhancements
+
+* Blockchain-based document verification
+* AI-based fraud detection
+* Mobile app integration
+* Cloud deployment (AWS/Azure)
+
+---
+
+## 👩‍💻 Author
+
+**Khushi Goda**
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+* ⭐ Star the repository
+* 🍴 Fork it
+* 🚀 Contribute
+
+---
+
+## 🧠 Summary
+
+DOCROUTE-RT provides a **complete document lifecycle solution**, integrating:
+
+* OCR for digitization
+* AI for intelligence
+* QR for tracking
+* Secure systems for sharing
+
+---
+
+🔥 A modern solution for **smart, secure, and scalable document management**
