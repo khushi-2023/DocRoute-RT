@@ -187,8 +187,9 @@ http://localhost:5000
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+All Rights Reserved © 2026 Khushi Goda
 
+This project is proprietary. No part of this project may be used, copied, modified, or distributed without explicit permission from the author.
 ---
 
 ## ⭐ Support
